@@ -7,7 +7,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
 1. [Preface](#preface)
 2. [Installation](#installation)
     1. [Requirements](#requirements)
-    2. [Run the simulation](#run)
+    2. [Usage](#run)
 3. [Legal](#legal)
     1. [Credits](#credits)
     2. [License](#license)
@@ -43,9 +43,9 @@ If you have any suggestions or comments related to this software, please contact
 * **Project Developer**: [Rocco De Marco](mailto:rocco.demarco@cnr.it)
 * **Project Developer**: [Francesco Di Nardo](mailto:f.dinardo@univpm.it)
 
-*LabMACS, DII, UniversitÃ  Politecnica delle Marche, Via Brecce Bianche, 12, Ancona, 60131, Italy*
-*Institute of Biological Resources and Marine Biotechnology (IRBIM), National Research Council (CNR), Ancona, Italy.*
-*ANcybernetics, Università Politecnica delle Marche, Ancona, Italy.*
+- *LabMACS, DII, UniversitÃ  Politecnica delle Marche, Via Brecce Bianche, 12, Ancona, 60131, Italy*
+- *Institute of Biological Resources and Marine Biotechnology (IRBIM), National Research Council (CNR), Ancona, Italy.*
+- *ANcybernetics, Università Politecnica delle Marche, Ancona, Italy.*
 
 [https://www.labmacs.university/](https://www.labmacs.university/)
 
