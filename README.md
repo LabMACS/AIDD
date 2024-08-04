@@ -2,8 +2,8 @@
 AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
 
 <p float="left">
-<img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="100" height="100">
-<img src="https://github.com/LabMACS/AIDD/blob/main/images/CNR-IRBIM_colori.png" width="400" height="100">
+<img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="80" height="80">
+<img src="https://github.com/LabMACS/AIDD/blob/main/images/CNR-IRBIM_colori.png" width="380" height="90">
 </p>
 
 # Table of contents
