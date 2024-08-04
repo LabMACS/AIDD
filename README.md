@@ -10,7 +10,8 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
     2. [Usage](#run)
 3. [Legal](#legal)
     1. [Credits](#credits)
-    2. [License](#license)
+    2. [Funding] (#funding) 
+    3. [License](#license)
      
 
 ## Preface <a name="preface"></a>
@@ -48,6 +49,9 @@ If you have any suggestions or comments related to this software, please contact
 - *ANcybernetics, Università Politecnica delle Marche, Ancona, Italy.*
 
 [https://www.labmacs.university/](https://www.labmacs.university/)
+
+### Funding <a name="funding"></a> 
+This work was supported in part by LIFE Financial Instrument of the European Community, Life Delfi Project – Dolphin Experience: Lowering Fishing Interactions (LIFE18NAT/IT/000942) and by the National Recovery and Resilience Plan (NRRP), Mission 4 Component 2 Investment 1.4 (Call for tender No. 3138 of 16 December 2021, rectified by Decree n.3175 of 18 December 2021 of Italian Ministry of University and Research funded by the European Union) NextGenerationEU.
 
 ### License <a name="license"></a>
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
