@@ -18,7 +18,9 @@ Intelligent robotic systems capable of identifying and consequently responding t
 
 
   
-***For further information about the Simulink model and parameters, please look at the [user manual](Documentation/user_manual.docx).***
+***For further information about the project, model and parameters, please look at 
+- https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
+- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted***
 
 ## Installation <a name="installation"></a>
 ### Requirements <a name="requirements"></a>
