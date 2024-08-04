@@ -4,7 +4,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
 ![image](https://github.com/LabMACS/AIDD/blob/main/images/CNR-IRBIM_colori.png) 
 ![image](https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png)
 
-![image](https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png)
+<img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="100" height="100"> 
 
 
 # Table of contents
