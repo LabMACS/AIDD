@@ -1,5 +1,5 @@
 # AIDD
-AI Dolphin Deter
+AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
 ![image](https://github.com/LabMACS/MAXFISH_Simulator/assets/64741263/17e16013-9c0a-459e-b3f7-c2a549fa2d81) ![image](https://github.com/LabMACS/MAXFISH_Simulator/assets/64741263/45443654-a834-47ae-9590-ab8ababafb62)
 
 
@@ -14,12 +14,7 @@ AI Dolphin Deter
      
 
 ## Preface <a name="preface"></a>
-This project includes a MAXFISH simulator for MATLAB/ Simulink and a GUI application. The goal is to provide an advanced and controllable tool that can simulate in precise detail the NGC system of a robotic bio-inspired fish.
-
-The simulator allows for the execution of programmed trajectories and for analysis of the fish's dynamic behavior. It deals with the mathematical model of kinematics and dynamics, as well as the propulsion system and NGC system, including line of sight guidance law and path following control system using PID, creating an accurate virtual model of the fish, through the 3D World Editor (native VRML editor), which is included in the Simulink 3D Animation. This enables the identification of potential issues, optimization of performance, and evaluation of the system's robustness in a detailed and controlled manner.
-
-The application facilitates users to simulate and analyze data with greater control. Its intuitive interface allows for modification of physical parameters of the fish, such as masses and component lengths, and to start the desired simulation. The application GUI performs several tasks, including importing model parameters from an Excel file, starting the simulation of the Simulink model, plotting variables of interest in the simulation, plotting the trajectory taken by MAXFISH and the desired trajectory.
-![image](https://github.com/LabMACS/MAXFISH_Simulator/assets/64741263/4f95ff26-68b8-44e9-a83c-e53748c2be8b)
+Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
 
 
   
