@@ -18,9 +18,11 @@ Intelligent robotic systems capable of identifying and consequently responding t
 
 
   
-***For further information about the project, model and parameters, please look at 
+***
+For further information about the project, model and parameters, please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
-- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted***
+- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
+***
 
 ## Installation <a name="installation"></a>
 ### Requirements <a name="requirements"></a>
@@ -31,18 +33,19 @@ Intelligent robotic systems capable of identifying and consequently responding t
   * [Simulink 3D Animation](https://it.mathworks.com/products/3d-animation.html)
   * [Vehicle Dynamics Blockset](https://it.mathworks.com/products/vehicle-dynamics.html)
   
-### Run the simulation <a name="run"></a>
-In the MAXFISH folder, the file â€œ_App.mlapp_â€ opens the GUI application. To change the parameters of the simulation, it is necessary to modify the Excel file â€œ_data.xlsx_â€. 
-
-The interface of the application includes two buttons: '_Load Parameters_' to import data from an Excel file and '_Run Simulation_' to initiate the simulation. Once the simulation has started, the behaviour of the digital fish and the 2D kinematics of the tail can be observed. By selecting the relevant tab in the app, itâ€™s possible to display the position, orientation, linear velocities, and angular velocities graphs of the fish, graph of all actuators, including the frequency and bias control of the fish's tail, as well as the effective trajectory compared to the desired one. 
+### Usage <a name="run"></a>
+This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
 
 ## Legal <a name="legal"></a>
 ### Credits <a name="credits"></a>
-If you have any suggestions or comments related to this simulator, please contact:
-* **Project Leader**: [David Scaradozzi](mailto:d.scaradozzi@staff.univpm.it)
-* **Project Developer**: [Flavia Gioiello](mailto:f.gioiello@staff.univpm.it)
+If you have any suggestions or comments related to this software, please contact:
+* **Project Leader**: [David Scaradozzi](mailto:d.scaradozzi@univpm.it)
+* **Project Developer**: [Rocco De Marco](mailto:rocco.demarco@cnr.it)
+* **Project Developer**: [Francesco Di Nardo](mailto:f.dinardo@univpm.it)
 
 *LabMACS, DII, UniversitÃ  Politecnica delle Marche, Via Brecce Bianche, 12, Ancona, 60131, Italy*
+*Institute of Biological Resources and Marine Biotechnology (IRBIM), National Research Council (CNR), Ancona, Italy.*
+*ANcybernetics, Università Politecnica delle Marche, Ancona, Italy.*
 
 [https://www.labmacs.university/](https://www.labmacs.university/)
 
