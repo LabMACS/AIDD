@@ -10,7 +10,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
     2. [Usage](#run)
 3. [Legal](#legal)
     1. [Credits](#credits)
-    2. [Funding] (#funding) 
+    2. [Funding](#funding) 
     3. [License](#license)
      
 
@@ -27,12 +27,7 @@ For further information about the project, model and parameters, please look at
 
 ## Installation <a name="installation"></a>
 ### Requirements <a name="requirements"></a>
-* MATLAB version R2023b or newer. **Older versions may not ensure proper functioning of the simulator**.
-* The following add-ons in MATLAB:
-  * [DSP System Toolbox](https://it.mathworks.com/products/dsp-system.html)
-  * [Signal Processing Toolbox](https://it.mathworks.com/products/signal.html)
-  * [Simulink 3D Animation](https://it.mathworks.com/products/3d-animation.html)
-  * [Vehicle Dynamics Blockset](https://it.mathworks.com/products/vehicle-dynamics.html)
+* TbD 
   
 ### Usage <a name="run"></a>
 This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
@@ -66,11 +61,11 @@ This work is licensed under a
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
 To acknowledge the material, the following information must be reported:
-* Attribution: MAXFISH PRIN project (20225RYMJE)
-             <[https://www.maxfish.it/](https://www.maxfish.it/)> 
-* Title of the Work: â€œMAXFISH Matlab/Simulink Simulatorâ€
-* Source: [https://www.labmacs.university/maxfish-simulator/](https://www.labmacs.university/maxfish-simulator/)
+* Attribution: DELFI project
+             <[https://www.labmacs.university/](https://www.labmacs.university/)> 
+* Title of the Work: AIDD - AI Dolphin Deter 
+* Source: [https://github.com/LabMACS/AIDD](https://github.com/LabMACS/AIDD)
 * License information: CC BY-NC-SA 4.0
 
-The â€œMAXFISH Matlab/Simulink Simulatorâ€ is free available.
+The AIDD - AI Dolphin Deter is free available.
 
