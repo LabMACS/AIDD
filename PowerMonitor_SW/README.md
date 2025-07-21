@@ -1,5 +1,5 @@
-# AIDD
-AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
+# Power Consumption
+Estimation of the power consumption of the A.I.D.D..
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
@@ -18,8 +18,17 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
+The enclosed routine is designed to provide an estimation of the power consumption of the A.I.D.D. device using a 12-bit I2C output digital power monitor, the INA219 sensor. The sensor was connected to a monitoring system based on a Raspberry Pi 3 Model A running Python sampling software. This setup acquires the voltage and current supplied to the A.I.D.D. system and classifies seven different operating stages: 
 
+1.	Data read from audio device 
+2.	STFT process
+3.	Image conversion (Plot)
+4.	CNN inference
+5.	Data logging (in case of positive events)
+6.	Sleep mode (waiting for the timestep of 0.4s)
+7.	Start-up of the environment
+
+The running states were transmitted from the Raspberry Pi Zero 2 W of the device to the monitoring Raspberry Pi 3 Model A via a three-wire GPIO connection (using GPIO pins 27, 17, and 22). These pins encoded the current running stage as a 3-bit integer value. The trials were conducted using the same criteria as in the previous section (Real-time software validation). 
 
   
 ***
