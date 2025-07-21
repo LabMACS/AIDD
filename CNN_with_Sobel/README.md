@@ -1,5 +1,5 @@
-# AIDD
-AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
+# CNN trained with Sobel-filtered spectrograms
+This section of the A.I.D.D. repository introduces the basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
