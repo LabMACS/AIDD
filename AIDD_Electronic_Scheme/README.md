@@ -1,5 +1,5 @@
-# AIDD
-AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
+# A.I.D.D. Electronic schemes
+The electronic schemes developed for A.I.D.D.
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
@@ -18,7 +18,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
+This section contains the electronic schemes developed for A.I.D.D.. The "main board" fold includes the schematics, PCB, and Gerber files of the main device, which connects each specialised module composing the A.I.D.D.. This board presents two 40-pins socket connector to mount the Raspberry Pi Zero 2 W and the high-quality audio expansion board, the HiFiBerry DAC+ADC Pro. The board allows to connect the customized preamplifier ("PreAmp THT" fold). The signal preamplifier is composed of Microchip MCP6024 quad operational amplifier, with a constant gain-bandwidth product (10 MHz). It works with a single supply voltage range of 2.5 - 5.5 V. Further pre-assembled modules are pluggeble on the main board, such as the TDA2030A power amp, Step-Up DC-DC Converter, Relay modules and Real-Time Clock module. Further information could be found in the scientific article under submission.
 
 
   
@@ -27,13 +27,6 @@ For further information about the project, model and parameters, please look at
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
 - Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
 ***
-
-## Installation <a name="installation"></a>
-### Requirements <a name="requirements"></a>
-* TbD 
-  
-### Usage <a name="run"></a>
-This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
 
 ## Legal <a name="legal"></a>
 ### Credits <a name="credits"></a>
