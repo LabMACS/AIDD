@@ -22,7 +22,7 @@ This section contains the electronic schemes developed for A.I.D.D.. The "main b
 ***
 For further information about the project, model and parameters, please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
-- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
+-Francesco Di Nardo, Rocco De Marco, Daniele Costa, Alessandro Lucchetti, and David Scaradozzi. A.I.D.D.: A Low-Cost, AI Powered, Acoustic Deterrent to Prevent Dolphin Bycatch and Depredation, Submitted to Science Robotics, July 2025.
 ***
 
 ## Legal <a name="legal"></a>
