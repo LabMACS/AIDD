@@ -1,5 +1,5 @@
-# AIDD
-AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
+# Hydrophone STL 3Dfile
+The model files fo r 3D print of self-made CoPiDi* hydrophone
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
@@ -18,14 +18,12 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
-
-
-  
+This section shares the STL file for the specific-developed enclosure cap. This cap is designed to hermetically seal a 40cm-long Teflon tube that contains the device hardware (hydrophone/emitter device) in order to ensure watertightness. This component was made using an industrial-quality SLA (stereolithography) 3D printer, reproducing the already validated CoPiDi hydrophone, with same form and dimensions. The cap can be removed to access the hydrophone and other components without compromising the waterproofing.  
 ***
+
+Further details about CoPiDi hydrophone could be found in "De Marco, R.; Di Nardo, F.; Lucchetti, A.; Virgili, M.; Petetta, A.; Li Veli, D.; Screpanti, L.; Bartolucci, V.; Scaradozzi, D. The Development of a Low-Cost Hydrophone for Passive Acoustic Monitoring of Dolphin’s Vocalizations. Remote Sens. 2023, 15, 1946. https://doi.org/10.3390/rs15071946"
 For further information about the project, model and parameters, please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
-- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
 ***
 
 ## Installation <a name="installation"></a>
