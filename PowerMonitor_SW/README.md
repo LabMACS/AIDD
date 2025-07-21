@@ -1,5 +1,5 @@
 # Power Consumption
-Estimation of the power consumption of the A.I.D.D..
+Software for the estimation of the power consumption of the A.I.D.D..
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
