@@ -8,10 +8,7 @@ The model files for 3D print of self-made CoPiDi hydrophone
 
 # Table of contents
 1. [Preface](#preface)
-2. [Installation](#installation)
-    1. [Requirements](#requirements)
-    2. [Usage](#run)
-3. [Legal](#legal)
+2. [Legal](#legal)
     1. [Credits](#credits)
     2. [Funding](#funding) 
     3. [License](#license)
