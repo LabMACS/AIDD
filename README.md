@@ -36,7 +36,7 @@ For further information about the project and the A.I.D.D., please look at
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
 - Francesco Di Nardo,  Rocco De Marco, Daniele Costa, Alessandro Lucchetti, and David Scaradozzi. A.I.D.D.: A Low-Cost, AI Powered, Acoustic Deterrent to Prevent Dolphin Bycatch and Depredation, Submitted to Science Robotics, July 2025.
 - Rocco De Marco, Francesco Di Nardo, Alessandro Rongoni, Laura Screpanti, and David Scaradozzi. Real-Time Dolphin Whistle Detection on Raspberry Pi Zero 2 W with a TFLite Convolutional Neural Network. Robotics 2025, 14, 67. https://doi.org/10.3390/robotics14050067
-- 
+- David Scaradozzi, Rocco de Marco, Daniel Li Veli, Alessandro Lucchetti, Laura Screpanti, and Francesco Di Nardo, Convolutional Neural Networks for Enhancing Detection of Dolphin Whistles in a Dense Acoustic Environment. IEEE Access, 2024, 12, 127141-127148.  doi: 10.1109/ACCESS.2024.3454815
 ***
 
 
