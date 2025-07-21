@@ -18,7 +18,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-This section contains the electronic schemes developed for A.I.D.D. The "main board" fold includes the schematics, PCB, and Gerber files of the main device which connects each specialised module composing the A.I.D.D. This board presents two 40-pins socket connector to mount the Raspberry Pi Zero 2 W and the high-quality audio expansion board, the HiFiBerry DAC+ADC Pro. The boards allows to connect the customized preamplifier ()
+This section contains the electronic schemes developed for A.I.D.D.. The "main board" fold includes the schematics, PCB, and Gerber files of the main device, which connects each specialised module composing the A.I.D.D.. This board presents two 40-pins socket connector to mount the Raspberry Pi Zero 2 W and the high-quality audio expansion board, the HiFiBerry DAC+ADC Pro. The board allows to connect the customized preamplifier ("PreAmp THT" fold). The signal preamplifier is composed of Microchip MCP6024 quad operational amplifier, with a constant gain-bandwidth product (10 MHz). It works with a single supply voltage range of 2.5 - 5.5 V. Further pre-assembled modules are pluggeble on the main board, such as the TDA2030A power amp, Step-Up DC-DC Converter, Relay modules and Real-Time Clock module. 
 
 
   
