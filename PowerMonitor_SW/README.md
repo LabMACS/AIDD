@@ -37,12 +37,6 @@ For further information about the project, model and parameters, please look at
 - Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
 ***
 
-## Installation <a name="installation"></a>
-### Requirements <a name="requirements"></a>
-* TbD 
-  
-### Usage <a name="run"></a>
-This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
 
 ## Legal <a name="legal"></a>
 ### Credits <a name="credits"></a>
