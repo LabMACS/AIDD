@@ -32,9 +32,11 @@ This repository provides:
 A.I.D.D. is a low-cost, fully replicable, and customizable solution that aims to make intelligent bycatch mitigation technologies accessible, representing a promising step toward sustainable and intelligent fishery practices.
   
 ***
-For further information about the project, model and parameters, please look at 
+For further information about the project and the A.I.D.D., please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
-- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
+- Francesco Di Nardo,  Rocco De Marco, Daniele Costa, Alessandro Lucchetti, and David Scaradozzi. A.I.D.D.: A Low-Cost, AI Powered, Acoustic Deterrent to Prevent Dolphin Bycatch and Depredation, Submitted to Science Robotics, July 2025.
+- Rocco De Marco, Francesco Di Nardo, Alessandro Rongoni, Laura Screpanti, and David Scaradozzi. Real-Time Dolphin Whistle Detection on Raspberry Pi Zero 2 W with a TFLite Convolutional Neural Network. Robotics 2025, 14, 67. https://doi.org/10.3390/robotics14050067
+- 
 ***
 
 
