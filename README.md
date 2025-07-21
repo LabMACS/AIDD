@@ -18,9 +18,18 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
+Dolphin bycatch and depredation in commercial fisheries pose serious ecological and socio-economic challenges, often resulting in injury or death of non-target marine mammals and financial loss for fishers. Conventional mitigation strategies, including static acoustic deterrent devices (pingers), have shown limited long-term efficacy due to habituation, non-selective operation, and environmental side effects. In this repository, we introduce the Artificial Intelligent Dolphin Deterrent (A.I.D.D.), a novel low-cost mechatronic system designed to reduce dolphin bycatch through underwater acoustic sensing, real-time machine learning, and programmable deterrent emissions.The device features a hydrophone-based acquisition unit, a Raspberry Pi Zero 2 W for onboard processing, and a dual-function acquisition/emitter system powered by a customized preamplifier and amplifier chain. The computational core of the system is a convolutional neural network (CNN) optimized with TensorFlow Lite to detect dolphin whistles and trigger deterrent sounds only upon verified presence
+This repository provides:
 
+    The complete Electronic Scheme of A.I.D.D.
 
+    An advanced version of the convolutional neural network (CNN) optimized with TensorFlow Lite
+
+    The Electronic_SCHeme of the Power Monitoring module and its calculation software
+
+    STL files for 3D printing the hydrophone
+
+A.I.D.D. is a low-cost, fully replicable, and customizable solution that aims to make intelligent bycatch mitigation technologies accessible, representing a promising step toward sustainable and intelligent fishery practices.
   
 ***
 For further information about the project, model and parameters, please look at 
