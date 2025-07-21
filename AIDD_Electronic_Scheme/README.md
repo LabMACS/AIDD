@@ -18,7 +18,7 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-This section contains the electronic schemes developed for A.I.D.D.. The "main board" fold includes the schematics, PCB, and Gerber files of the main device, which connects each specialised module composing the A.I.D.D.. This board presents two 40-pins socket connector to mount the Raspberry Pi Zero 2 W and the high-quality audio expansion board, the HiFiBerry DAC+ADC Pro. The board allows to connect the customized preamplifier ("PreAmp THT" fold). The signal preamplifier is composed of Microchip MCP6024 quad operational amplifier, with a constant gain-bandwidth product (10 MHz). It works with a single supply voltage range of 2.5 - 5.5 V. Further pre-assembled modules are pluggeble on the main board, such as the TDA2030A power amp, Step-Up DC-DC Converter, Relay modules and Real-Time Clock module. 
+This section contains the electronic schemes developed for A.I.D.D.. The "main board" fold includes the schematics, PCB, and Gerber files of the main device, which connects each specialised module composing the A.I.D.D.. This board presents two 40-pins socket connector to mount the Raspberry Pi Zero 2 W and the high-quality audio expansion board, the HiFiBerry DAC+ADC Pro. The board allows to connect the customized preamplifier ("PreAmp THT" fold). The signal preamplifier is composed of Microchip MCP6024 quad operational amplifier, with a constant gain-bandwidth product (10 MHz). It works with a single supply voltage range of 2.5 - 5.5 V. Further pre-assembled modules are pluggeble on the main board, such as the TDA2030A power amp, Step-Up DC-DC Converter, Relay modules and Real-Time Clock module. Further information could be found in the scientific article under submission.
 
 
   
@@ -27,13 +27,6 @@ For further information about the project, model and parameters, please look at
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
 - Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
 ***
-
-## Installation <a name="installation"></a>
-### Requirements <a name="requirements"></a>
-* TbD 
-  
-### Usage <a name="run"></a>
-This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
 
 ## Legal <a name="legal"></a>
 ### Credits <a name="credits"></a>
