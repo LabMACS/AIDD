@@ -9,10 +9,7 @@ The Artificial Intelligent Dolphin Deterrent: a novel low-cost intelligent robot
 
 # Table of contents
 1. [Preface](#preface)
-2. [Installation](#installation)
-    1. [Requirements](#requirements)
-    2. [Usage](#run)
-3. [Legal](#legal)
+2. [Legal](#legal)
     1. [Credits](#credits)
     2. [Funding](#funding) 
     3. [License](#license)
