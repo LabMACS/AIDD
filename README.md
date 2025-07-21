@@ -25,7 +25,7 @@ This repository provides:
 
     An advanced version of the convolutional neural network (CNN) optimized with TensorFlow Lite
 
-    The Electronic_SCHeme of the Power Monitoring module and its calculation software
+    The Electronic scheme of the Power Monitoring module and its calculation software
 
     STL files for 3D printing the hydrophone
 
