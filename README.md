@@ -1,4 +1,4 @@
-# AIDD
+# A.I.D.D.
 AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
 
 <p float="left">
