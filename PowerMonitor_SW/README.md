@@ -1,5 +1,5 @@
-# Power Consumption
-Software for the estimation of the power consumption of the A.I.D.D..
+# Monitoring of Power Consumption
+Software for the monitoring of A.I.D.D. power consumption.
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
