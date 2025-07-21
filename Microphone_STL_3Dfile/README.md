@@ -27,12 +27,6 @@ For further information about the project, model and parameters, please look at
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
 ***
 
-## Installation <a name="installation"></a>
-### Requirements <a name="requirements"></a>
-* TbD 
-  
-### Usage <a name="run"></a>
-This simple application requires that spectrograms be prepared by applying a Sobel vertical filter and saved in PNG format with a resolution of 300x150 pixels. Files containing whistles should have filenames starting with POS, otherwise NEG. All these files should be saved in a folder named "sobel". Please note: a sample trained model is available in "Release"
 
 ## Legal <a name="legal"></a>
 ### Credits <a name="credits"></a>
