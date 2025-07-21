@@ -1,5 +1,5 @@
 # A.I.D.D. Electronic schemes
-AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model trained to recognize bottlenose dolphin whistles.
+The electronic schemes developed for A.I.D.D.
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
