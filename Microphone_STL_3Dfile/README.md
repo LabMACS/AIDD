@@ -4,6 +4,7 @@ The model files for 3D print of self-made CoPiDi hydrophone
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/CNR-IRBIM_colori.png" width="380" height="120">
+<img src="https://github.com/LabMACS/AIDD/blob/main/images/ANcyb_300DPIOK.png"width="380" height="120">
 </p>
 
 # Table of contents
