@@ -18,7 +18,7 @@ Software for the estimation of the power consumption of the A.I.D.D..
      
 
 ## Preface <a name="preface"></a>
-The enclosed routine is designed to provide an estimation of the power consumption of the A.I.D.D. device using a 12-bit I2C output digital power monitor, the INA219 sensor. The sensor was connected to a monitoring system based on a Raspberry Pi 3 Model A running Python sampling software. This setup acquires the voltage and current supplied to the A.I.D.D. system and classifies seven different operating stages: 
+The enclosed routine (INA_219_Logger) is designed to provide an estimation of the power consumption of the A.I.D.D. device using a 12-bit I2C output digital power monitor, the INA219 sensor. The sensor was connected to a monitoring system based on a Raspberry Pi 3 Model A running Python sampling software. This setup acquires the voltage and current supplied to the A.I.D.D. system and classifies seven different operating stages: 
 
 1.	Data read from audio device 
 2.	STFT process
