@@ -18,14 +18,19 @@ AI Dolphin Deter: Basic algorithm to test the functionality of the CNN model tra
      
 
 ## Preface <a name="preface"></a>
-Intelligent robotic systems capable of identifying and consequently responding to dolphin vocalizations in real-time seem to be a promising approach to mitigate dolphin interactions with fishing operations. Thus, the core of this intelligent system should be an advanced algorithm or an artificial intelligence architecture capable of identifying dolphin vocalizations and distinguishing them from other underwater sounds. This research introduces a novel method based on convolutional neural networks (CNN) to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Before feeding CNN, spectrograms underwent a vertical Sobel filter, that is able to accentuate the whistle waveform and thus to enhance CNN training and identification performance. Two different datasets of dolphin vocalization were used to test CNN performance. Results showed that, in the best-case scenario, virtually all whistles were correctly identified by CNN (99.8%) and mean model accuracy, precision, recall, and F1-score were not lower than 99.0%. Model effectiveness was preserved even under challenging experimental conditions, characterized by overlaps of noise or other vocalizations. Moreover, the computation timing is compatible with real-time applications. The suitability of the model in different environments and the low computational time make this approach very appropriate for intelligent robotic solution for monitoring underwater environments.
+This section of the A.I.D.D. repository provides the convolutional neural network (CNN) that forms the computational core of the device, designed to identify dolphin whistles from spectrograms extracted from underwater audio recordings. Prior to CNN processing, spectrograms undergo a vertical Sobel filter that enhances the whistle waveform, improving both CNN training and detection performance. Two distinct datasets of dolphin vocalizations were used to evaluate CNN performance, with results showing that, in the best-case scenario, nearly all whistles were correctly identified (99.8%), and the mean model accuracy, precision, recall, and F1-score never dropped below 99.0%. Model effectiveness remained high even under challenging conditions with overlapping noise or other vocalizations. Moreover, the computation speed is fully compatible with real-time applications. The robustness of this model across environments and its low computational demand make this approach highly suitable for intelligent robotic solutions aimed at monitoring and mitigating underwater interactions.
 
+The neural network presented here is an evolution of the one introduced in:
+
+D. Scaradozzi, R. de Marco, D. Li Veli, A. Lucchetti, L. Screpanti, and F. Di Nardo, 'Convolutional Neural Networks for Enhancing Detection of Dolphin Whistles in a Dense Acoustic Environment,' in IEEE Access, vol. 12, pp. 127141-127148, 2024, doi: 10.1109/ACCESS.2024.3454815
+
+which was originally used as the computational core of the device
 
   
 ***
 For further information about the project, model and parameters, please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
-- Francesco Di Nardo, David Scaradozzi, Rocco De Marco, Laura Screpanti, and Alessandro Lucchetti, Intelligent identification of dolphin whistle in acoustic signals via convolutional neural networks, Science Advances, Submitted
+-  David Scaradozzi, Rocco De Marco, Laura Screpanti, and Francesco Di Nardo, Intelligent Identification of Dolphin Whistle in Acoustic Signals via Deep Learning, Scientific Reports, Submitted
 ***
 
 ## Installation <a name="installation"></a>
