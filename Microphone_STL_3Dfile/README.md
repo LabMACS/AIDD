@@ -22,6 +22,7 @@ This section shares the STL files for the specific-developed enclosure cap that 
 ***
 
 Further details about CoPiDi hydrophone could be found in "De Marco, R.; Di Nardo, F.; Lucchetti, A.; Virgili, M.; Petetta, A.; Li Veli, D.; Screpanti, L.; Rocco De Marco, Francesco Di Nardo, Alessandro Lucchetti, Massimo Virgili, Andrea Petetta, Daniel Li Veli, Laura Screpanti, Veronica Bartolucci, David Scaradozzi. The Development of a Low-Cost Hydrophone for Passive Acoustic Monitoring of Dolphin’s Vocalizations. Remote Sensing. 2023, 15, 1946. https://doi.org/10.3390/rs15071946
+
 For further information about the project, model and parameters, please look at 
 - https://www.irbim.cnr.it/progetto-dettagli/life-delfi/
 ***
