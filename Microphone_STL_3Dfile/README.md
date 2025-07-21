@@ -1,5 +1,5 @@
 # Hydrophone STL 3Dfile
-The model files fo r 3D print of self-made CoPiDi* hydrophone
+The model files for 3D print of self-made CoPiDi hydrophone
 
 <p float="left">
 <img src="https://github.com/LabMACS/AIDD/blob/main/images/Extended_Logo.png" width="85" height="85">
@@ -18,7 +18,7 @@ The model files fo r 3D print of self-made CoPiDi* hydrophone
      
 
 ## Preface <a name="preface"></a>
-This section shares the STL file for the specific-developed enclosure cap. This cap is designed to hermetically seal a 40cm-long Teflon tube that contains the device hardware (hydrophone/emitter device) in order to ensure watertightness. This component was made using an industrial-quality SLA (stereolithography) 3D printer, reproducing the already validated CoPiDi hydrophone, with same form and dimensions. The cap can be removed to access the hydrophone and other components without compromising the waterproofing.  
+This section shares the STL files for the specific-developed enclosure cap that embeds the hydrophone/emitter device, based on piezo caps. This cap is designed to hermetically seal a 40cm-long Teflon tube that contains the device hardware in order to ensure watertightness. This component was made using an industrial-quality SLA (stereolithography) 3D printer, reproducing the already validated CoPiDi* hydrophone, with same form and dimensions. The cap can be removed to access the hydrophone and other components without compromising the waterproofing.  
 ***
 
 Further details about CoPiDi hydrophone could be found in "De Marco, R.; Di Nardo, F.; Lucchetti, A.; Virgili, M.; Petetta, A.; Li Veli, D.; Screpanti, L.; Bartolucci, V.; Scaradozzi, D. The Development of a Low-Cost Hydrophone for Passive Acoustic Monitoring of Dolphin’s Vocalizations. Remote Sens. 2023, 15, 1946. https://doi.org/10.3390/rs15071946"
